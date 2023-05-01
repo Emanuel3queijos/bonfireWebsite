@@ -1,0 +1,181 @@
+/*
+* 
+* @Emanuel Almeida
+*/
+html,
+body,
+#home {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background: linear-gradient(90deg, #080808, #ff0000, #080808);
+  background: url(./images/malenia.jpg) no-repeat right top;
+
+  background-size: cover;
+
+  font-family: monospace;
+}
+
+nav.navbar {
+  background: #000000;
+}
+.navbar-collapse {
+  transition: height 0.5s ease-out;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fc0000;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+.navbar-light .navbar-toggler {
+  color: rgba(255, 0, 0, 0.5);
+  border-color: transparent;
+  transition: 0.9s ease;
+}
+
+.navbar-light .navbar-toggler:hover {
+  background: #fd0303;
+}
+
+.capa {
+  text-align: center;
+}
+.caixa {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.row h2 {
+  padding-bottom: 20px;
+}
+#servicosHotel h3,
+p {
+  margin-top: 1px;
+}
+#servicosHotel img {
+  height: 150px;
+  margin-bottom: 30px;
+  float: left;
+  margin-right: 10px;
+}
+#servicos {
+  background: transparent;
+}
+
+#servicos h2,
+h3 {
+  color: #ffffff;
+  font-weight: bolder;
+}
+p {
+  color: black;
+  font-weight: bolder;
+  text-align: justify;
+}
+
+#recursos p {
+  color: white;
+  font-size: 1.5em;
+}
+
+#recursos {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#recursos h3 {
+  color: #9bf0e1;
+}
+#recursos h2 {
+  color: white;
+}
+.albuns {
+  padding: 10px 0;
+}
+.rotacionar {
+  transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+  padding-left: 100px;
+}
+
+/* Rodapé */
+.footer {
+  background: linear-gradient(90deg, #080808, #af0a0a, #080808);
+  text-align: center;
+  width: 100%;
+}
+
+.footer p,
+a {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
+}
+
+/* Tipografia */
+
+h1 {
+  font-weight: 900;
+  letter-spacing: -0.05em;
+  margin-bottom: 50px;
+  color: white;
+}
+
+h2 {
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+h3 {
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+.divisor2 {
+  width: 20px;
+  background: white;
+  height: 1px;
+  margin: 20px 12px;
+}
+
+.list-inline-item a {
+  color: #ffffff;
+}
+.list-inline-item a:hover {
+  color: #fc0000;
+}
+span.typed-cursor {
+  display: none;
+}
+
+.mobile {
+  display: none;
+}
+
+@media (max-width: 765px) {
+  .mobile {
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    background-attachment: scroll;
+  }
+}
+@media (max-width: 700px) {
+  body {
+    background-attachment: scroll;
+    background-position: right top;
+  }
+}
