@@ -78,12 +78,11 @@ p {
   background: linear-gradient(90deg, #080808, #af0a0a, #080808);
   text-align: center;
   position: absolute;
-  bottom: -20px;
+  bottom: -10px;
   width: 100%;
 }
 
-.footer p,
-a {
+.footer a {
   font-size: 20px;
   font-weight: bold;
   text-align: center;

@@ -44,27 +44,10 @@ nav.navbar {
   background: #fd0303;
 }
 
-.capa {
-  text-align: center;
-}
-.caixa {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
 .row h2 {
   padding-bottom: 20px;
 }
-#servicosHotel h3,
-p {
-  margin-top: 1px;
-}
-#servicosHotel img {
-  height: 150px;
-  margin-bottom: 30px;
-  float: left;
-  margin-right: 10px;
-}
+
 #servicos {
   background: transparent;
 }
@@ -80,42 +63,17 @@ p {
   text-align: justify;
 }
 
-#recursos p {
-  color: white;
-  font-size: 1.5em;
-}
-
-#recursos {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-#recursos h3 {
-  color: #9bf0e1;
-}
-#recursos h2 {
-  color: white;
-}
-.albuns {
-  padding: 10px 0;
-}
-.rotacionar {
-  transform: rotate(30deg);
-  -ms-transform: rotate(30deg);
-  -webkit-transform: rotate(30deg);
-  padding-left: 100px;
-}
-
 /* Rodapé */
 .footer {
   background: linear-gradient(90deg, #080808, #af0a0a, #080808);
   text-align: center;
+  position: absolute;
+  bottom: -10px;
   width: 100%;
 }
 
-.footer p,
-a {
-  font-size: 30px;
+.footer a {
+  font-size: 20px;
   font-weight: bold;
   text-align: center;
   color: #000000;
@@ -142,15 +100,8 @@ h3 {
   letter-spacing: -0.04em;
 }
 
-.divisor2 {
-  width: 20px;
-  background: white;
-  height: 1px;
-  margin: 20px 12px;
-}
-
 .list-inline-item a {
-  color: #ffffff;
+  color: #000000;
 }
 .list-inline-item a:hover {
   color: #fc0000;
