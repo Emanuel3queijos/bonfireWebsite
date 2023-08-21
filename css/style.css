@@ -10,7 +10,7 @@ body,
 }
 
 body {
-  background: linear-gradient(90deg, #080808, #ff0000, #080808);
+  background: linear-gradient(90deg, #ff0000, #080808 #ff0000, #080808);
   background: url(../images/malenia.jpg) no-repeat right top;
 
   background-size: cover;
@@ -63,16 +63,15 @@ h3, P {
 
 /* Rodapé */
 .footer {
-  background: linear-gradient(90deg, #080808, #af0a0a, #080808);
+  background:( #f6f5f5);
   text-align: center;
 }
 
 .footer p,
 a {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
   text-align: center;
-  color: #000000;
 }
 
 /* Tipografia */
@@ -97,7 +96,7 @@ h3 {
 }
 
 .list-inline-item a {
-  color: #000000;
+  color: #ffffff;
 }
 .list-inline-item a:hover {
   color: #fc0000;
