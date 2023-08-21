@@ -43,45 +43,34 @@ nav.navbar {
 .navbar-light .navbar-toggler:hover {
   background: #fd0303;
 }
-.caixa {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
+
 
 .row h2 {
   padding-bottom: 20px;
 }
-#servicos {
-  background: transparent;
-}
 
-#servicos h2,
+
+#type h2,
 h3, P {
   color: #ffffff;
   font-weight: bolder;
 }
 
-/* Rodapé */
+/* footer */
 .footer {
   background:( #f6f5f5);
-  text-align: center;
 }
 
-.footer p,
+.footer
 a {
   font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-}
-
-/* Tipografia */
-
-h1 {
   font-weight: 900;
   letter-spacing: -0.05em;
   margin-bottom: 50px;
   color: white;
-}
+  }
+
+/* fonts */
 
 h2 {
   font-size: 3em;
@@ -89,17 +78,10 @@ h2 {
   letter-spacing: -0.04em;
 }
 
-h3 {
-  font-size: 2em;
-  font-weight: 700;
-  letter-spacing: -0.04em;
-}
 
-.list-inline-item a {
-  color: #ffffff;
-}
+
 .list-inline-item a:hover {
-  color: #fc0000;
+  color: #5f4e4e;
 }
 span.typed-cursor {
   display: none;
